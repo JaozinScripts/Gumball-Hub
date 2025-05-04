@@ -59,6 +59,18 @@ local redzlib = {
       ["Color Text"] = Color3.fromRGB(243, 243, 243),
       ["Color Dark Text"] = Color3.fromRGB(180, 180, 180)
     }
+	  },
+		BlueElegant = {
+			["Color Hub 1"] = ColorSequence.new({
+				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(10, 25, 55)),  -- Azul oscuro elegante
+				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(30, 70, 150)),  -- Azul vivo medio
+				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(10, 25, 55))   -- Azul oscuro elegante
+			}),
+			["Color Hub 2"] = Color3.fromRGB(15, 35, 80),  -- Azul elegante profundo
+			["Color Stroke"] = Color3.fromRGB(20, 55, 120),  -- Azul con un brillo elegante
+			["Color Theme"] = Color3.fromRGB(0, 120, 220),  -- Azul intenso elegante
+			["Color Text"] = Color3.fromRGB(255, 255, 255),  -- Blanco puro
+			["Color Dark Text"] = Color3.fromRGB(200, 220, 250)  -- Gris suave con tono frío
     
   },
   Info = {
@@ -67,7 +79,7 @@ local redzlib = {
   Save = {
     UISize = {434,247},
     TabSize = 160,
-    Theme = "Green"
+    Theme = "BlueElegant"
   },
   Settings = {},
   Connection = {},
