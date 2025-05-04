@@ -51,9 +51,9 @@ local redzlib = {
 		Version = "1.1.0"
 	},
 	Save = {
-		UISize = {550, 380},
+		UISize = {434,247},
 		TabSize = 160,
-		Theme = "Darker"
+		Theme = "BlueElegant"
 	},
 	Settings = {},
 	Connection = {},
@@ -62,7 +62,7 @@ local redzlib = {
 	Options = {},
 	Flags = {},
 	Tabs = {},
-	Icons = loadstring(game:HttpGet("https://raw.githubusercontent.com/MyNameIsObitoUchiha/UI_Libarys/refs/heads/main/Lucide%20Icons"))()
+	Icons = loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/raelhubfunctions/Rael-hub-libary/refs/heads/main/Icons.lua"))()"))()
 }
 
 local ViewportSize = workspace.CurrentCamera.ViewportSize
